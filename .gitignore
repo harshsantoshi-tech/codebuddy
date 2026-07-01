@@ -1,0 +1,35 @@
+# Environment files
+.env
+.env.*
+!.env.example
+.env.example
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Coverage
+*.out
+coverage.out
+
+# Go workspace
+go.work.sum
+
+# Vendor (if not committing dependencies)
+vendor/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
